@@ -1,6 +1,6 @@
 ---
-title: Indivisible City
-timezone: UTC
+title: Change Begins With ME
+timezone: America/Los_Angeles
 collections:
   posts:
     title: Posts
@@ -57,15 +57,14 @@ defaults:
   values:
     main-image: 
     mailchimp-form-embed: 
-subtitle: We are thousands of local citizens resisting the Trump agenda through civic
-  action.
-email: 
+subtitle: We are Indivisble
+email: changebeginswithmesd@gmail.com
 baseurl: 
 url: 
 twitter_username: 
 facebook_username: 
-background-image: "/uploads/31773994174_c2e5706218_k.jpg"
-member-count: '100'
+background-image: "/uploads/Cover%20Photo.jpg"
+member-count: 100
 footer-title: Spread the word. Help build a movement.
 markdown: kramdown
 gems:
@@ -76,4 +75,14 @@ paginate_path: "/blog/page:num/"
 exclude:
 - Gemfile
 - Gemfile.lock
-google_analytics: 
+google_analytics: |-
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-96921270-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
